@@ -8,7 +8,7 @@ from logger import logger
 router = APIRouter()
 
 
-@router.get("/")
+@router.get("/health")
 async def root():
     return {"status": "UP"}
 
