@@ -1,8 +1,8 @@
 from fastapi import HTTPException, status
 
 from fastapi import APIRouter
-from src.WebScraper import WebScraper
-from src.logger import logger
+from WebScraper import WebScraper
+from logger import logger
 
 
 router = APIRouter()
@@ -28,7 +28,7 @@ async def get_trp_price():
         return {'error': 'An unexpected error has occurred!', 'status_code': status.HTTP_500_INTERNAL_SERVER_ERROR}
     else:
         current_price = soup.findAll('span', attrs={'class':'price-section__current-value'})[0].text
-        output = {"price": current_price}
+        output = {"price": "$" + current_price}
         return output
 
 

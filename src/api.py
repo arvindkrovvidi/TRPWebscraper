@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from src import router
+import router
 
 app = FastAPI(title="Web scraper API", description="A web scraper API to get the price of TRP2060")
 
