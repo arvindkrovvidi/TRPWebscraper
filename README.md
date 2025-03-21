@@ -31,7 +31,10 @@ Send a request to the URL http://0.0.0.0:80.
 
 500 - There was some issue getting the price
 
-# Sample response
+# Samples
+## Input
+`https://fa-trpwebscraper.azurewebsites.net/get-price`
+## Response
 ```json
 {
   "price": "$24.05"
