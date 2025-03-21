@@ -1,3 +1,7 @@
 .idea
 __pychache__/
 src/__pycache
+azure.yaml
+function_app.py
+host.json
+local.settings.json
