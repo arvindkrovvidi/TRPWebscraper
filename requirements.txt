@@ -6,4 +6,5 @@ azure-functions>=1.12.0
 fastapi
 requests==2.32.3
 beautifulsoup4==4.12.3
+uvicorn==0.34.0
 
