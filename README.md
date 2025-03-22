@@ -13,7 +13,7 @@ You can access the API at https://fa-trpwebscraper.azurewebsites.net/
 cd TRPWebscraper
 pip install -r requirements.txt
 cd src
-uvicorn api:app --host "0.0.0.0" --port 80
+python src/api.py
 ```
 
 # Sending a request
