@@ -1,8 +1,8 @@
 from fastapi import HTTPException, status
 
 from fastapi import APIRouter
-from WebScraper import WebScraper
-from logger import logger
+from src.WebScraper import WebScraper
+from src.logger import logger
 
 
 router = APIRouter()
