@@ -12,7 +12,6 @@ You can access the API at https://fa-trpwebscraper.azurewebsites.net/
 ```commandline
 cd TRPWebscraper
 pip install -r requirements.txt
-cd src
 python src/api.py
 ```
 
